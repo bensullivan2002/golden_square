@@ -11,7 +11,7 @@ def test_string_builder_add_and_output(input, expected):
     string = StringBuilder()
     string.add(input)
     assert string.output() == expected
-    
+
 
 @pytest.mark.parametrize("input, expected",
                         [
