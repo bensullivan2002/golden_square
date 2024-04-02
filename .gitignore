@@ -1,3 +1,4 @@
 golden_square_venv
 .py*
 __py*
+.coverage
